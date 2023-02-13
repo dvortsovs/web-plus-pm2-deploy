@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build scp -Cr ./build/* fane28@158.160.51.230:/home/fane28/mesto-frontend",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
